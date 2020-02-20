@@ -56,4 +56,4 @@ async function main() {
     console.log(users);
 }
 main();
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=crud.js.map

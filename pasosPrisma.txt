@@ -1,4 +1,5 @@
 https://github.com/prisma/prisma2/blob/master/docs/getting-started.md
+https://github.com/prisma/prisma2/blob/master/docs/getting-started/quickstart-existing-project.md
 
 https://photonjs.prisma.io/
 
