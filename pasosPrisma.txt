@@ -12,7 +12,7 @@ https://lift.prisma.io/
 4. npm install @prisma/client
 5. {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "build",
     "rootDir": "src",
     "lib": ["esnext"],
     "strict": true

@@ -18,9 +18,11 @@
     "prepare": "npm.cmd run compile",
     "pretest": "npm.cmd run compile",
     "posttest": "npm.cmd run check",
-    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
-    "prod": "tsc && node ./build/src/index.js",
-    "start": "npx ts-node ./src/index.ts"
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/crud.ts",
+    "prod": "tsc && node ./build/src/crud.js",
+    "start": "npx ts-node ./src/crud.ts",
+    "server": "node server.js",
+    "parcel": "parcel build jsx/main.js -d public/js"
   },
   "devDependencies": {
     "@types/node": "^10.0.3",
@@ -31,6 +33,8 @@
   "dependencies": {
     "@prisma/client": "2.0.0-preview020.3",
     "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "ts-node-dev": "^1.0.0-pre.44"
   }
 }

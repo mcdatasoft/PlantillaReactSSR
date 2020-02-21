@@ -8,7 +8,7 @@
 7. npm run compile // compilamos la transpilacion a codigo js, lo hara hacia la carpeta build
 8. npm run clean // borra los archivos compilados y transpilados
 9. colocar el script para el ambiente de produccion en el que se ejecuta el transpilado .JS->> [ npm run prod ]
-    "prod": "tsc && node ./build/src/index.js"
+    "prod": "tsc && node ./build/src/crud.js"
 10. probar entorno de produccion que transpila en la carpeta ruta destino y ejecuta el codigo transpilado
     npm run prod
 ***************************Ejecutar TypeScript sin transpilar****************************
@@ -16,10 +16,10 @@
 1. npm install ts-node-dev -s // instalar el paquete que trae server node para typescript
 2. colocar el script dev para ejecutar el codigo typescript sin compilar y mostrar cada cambio que se grabe
     de forma continua hasta que se lance CTRL + C para interrumpir y detener el servicio
-    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/crud.ts",
 3. probar el entorno de desarrollo que ejecuta el fuente iniciando con el fichero indicado en el script
     npm run dev
-4. "start": "npx ts-node ./src/index.ts" //colocar el script start para ejecutar el codigo typescript sin compilar
+4. "start": "npx ts-node ./src/crud.ts" //colocar el script start para ejecutar el codigo typescript sin compilar
     npm start
 
     --git hub
